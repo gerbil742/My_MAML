@@ -260,12 +260,3 @@ serv.end = True
 serv.pwmx.stop
 serv.pwmy.stop
 GPIO.cleanup()
-
-#print self.dcx
-
-#mess with scalefactor and resolution to find which increases cpu power usage more
-#keep fps at a minimum
-#what could possibly make the servos go into undefined behavior (Power? code? CPU power)?
-
-# Need to have pinpoint adjust on a frame per frame basis instead
-# of in a while loop so we can have the frames still displayeed
